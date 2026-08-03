@@ -1,0 +1,30 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+	background-image: url("https://i.pinimg.com/originals/12/48/fa/1248fa0b12dba563c33b8a245f11667d.png?nii=t");
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -2;
+}
+.titleImage {
+    text-align: center;
+}
+
+@font-face {
+    font-family: "KiwiSoda";
+    src: url("./fonts/KiwiSoda.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Daydream";
+    src: url("./fonts/Daydream DEMO.otf") format("truetype");
+}
+#gameDescription {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Daydream", sans-serif;
+}
