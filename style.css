@@ -8,10 +8,10 @@ body::before {
     background-position: center;
 	background-image: url("https://i.pinimg.com/originals/12/48/fa/1248fa0b12dba563c33b8a245f11667d.png?nii=t");
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.5;
     z-index: -2;
 }
-.titleImage {
+.gameImage {
     text-align: center;
 }
 
@@ -27,4 +27,26 @@ body::before {
     text-align: center;
     font-size: 13px;
     font-family: "Daydream", sans-serif;
+}
+.gamePic {
+    display: block;           /* Make image a block element */
+    margin-left: auto;        /* Auto margins center horizontally */
+    margin-right: auto;
+    border-radius: 150px;
+    border-width: 10px;
+    border-color: rgb(0, 131, 174);
+    border-style: solid;
+}
+.webText {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Daydream", sans-serif;
+    color: rgb(0, 123, 245);
+}
+#bubbleLine {
+    height: 50px;
+    width: 100%;
+    background-image: url("images/Bubble Picture V2.png");
+    background-repeat: repeat-x;
+    background-size: 50px auto;
 }
