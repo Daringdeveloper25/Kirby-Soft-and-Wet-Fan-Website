@@ -11,6 +11,38 @@ body::before {
     opacity: 0.5;
     z-index: -2;
 }
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+.tab-button {
+    background-image: url("images/Bubble Picture V2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border: none;
+    background-color: transparent;
+
+    width: 150px;
+    height: 100px;
+
+    cursor: pointer;
+    font-family: "Daydream", sans-serif;
+    font-size: 10px;
+    color: rgb(0, 123, 245)
+}
+.tab-button.active {
+  font-weight: bold;
+}
+
+.tabs {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
 .gameImage {
     text-align: center;
 }
