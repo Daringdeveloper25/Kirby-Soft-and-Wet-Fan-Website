@@ -82,9 +82,25 @@ body::before {
     border-color: rgb(0, 131, 174);
     border-style: solid;
 }
+.characterPic {
+    display: block;           /* Make image a block element */
+    margin-left: auto;        /* Auto margins center horizontally */
+    margin-right: auto;
+    border-radius: 150px;
+    border-width: 10px;
+    border-color: rgb(0, 131, 174);
+    background-color: rgb(82, 212, 255);
+    border-style: solid;
+}
 .webText {
     text-align: center;
     font-size: 13px;
+    font-family: "Daydream", sans-serif;
+    color: rgb(0, 123, 245);
+}
+.boldWebText {
+    text-align: center;
+    font-size: 26px;
     font-family: "Daydream", sans-serif;
     color: rgb(0, 123, 245);
 }
