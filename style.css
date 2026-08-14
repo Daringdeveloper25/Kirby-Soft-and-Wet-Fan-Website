@@ -81,6 +81,16 @@ body::before {
     border-width: 10px;
     border-color: rgb(0, 131, 174);
     border-style: solid;
+    animation: borderPulse 3s alternate infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes borderPulse {
+    0% {
+        border-color: rgb(42, 202, 255);
+    }
+    100% {
+        border-color: rgb(164, 232, 255);
+    }
 }
 .characterPic {
     display: block;           /* Make image a block element */
@@ -91,6 +101,16 @@ body::before {
     border-color: rgb(0, 131, 174);
     background-color: rgb(82, 212, 255);
     border-style: solid;
+    animation: borderPulseTwo 3s alternate infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes borderPulseTwo {
+    0% {
+        border-color: rgb(42, 202, 255);
+    }
+    100% {
+        border-color: rgb(164, 232, 255);
+    }
 }
 .webText {
     text-align: center;
